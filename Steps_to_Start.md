@@ -14,7 +14,9 @@ rest of the work is done on terminal
 Step 1 - git config --global user.email "youGithub@example.com"
 step 2 - git config --global user.name "Your github Name"
 
-## Commands to clone and work on repo and then commit it in local repo
+## Work on repo already exist
+
+### Commands to clone and work on repo and then commit it in local repo
 
 Step 1 - git clone <repo url>
 Step 2 - open repo using any code editor and make changes
@@ -26,7 +28,7 @@ Step 7 - git push
 
 you can also use git clear if the terminal is filled with code
 
-## Commands to upload work on github
+### Commands to upload work on github
 
 1st we have to prove git that we are the owner of the repo
 
@@ -40,4 +42,14 @@ Step 7 - go to github - under setting click on SSh and GPG keys option
 
 2nd now we can push it to our repo
 Step 1 - git push origin master
-Step 2 - 
+
+## Work on repo you made locally
+
+Step 1 - open the directory using cd command
+Step 2 - make it a git repo using git init command
+Step 3 - now use same commands used in topic Work on repo already exist till 1st
+we cant use git push origin master command to push our code as there is no origin repo present
+
+option 1 - create a empty repo in github
+Step 1 - git remote add origin <repo url>
+step 2 - git push origin master
