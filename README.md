@@ -59,8 +59,8 @@ git merge a
 Merge & squash all commits into one new commit - git merge --squash a
 
 to be continued ..
-.
-.
-.
-.
+
+  
+  
+  
 Reference - https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn
