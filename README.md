@@ -23,3 +23,44 @@
 19. git reset - Undoes changes to files in the working directory. Resetting lets you clean up or completely remove changes that have not been pushed to a public repository.
 20. git revert - Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
 
+## Setup commands
+1. open termenal and write these commands
+
+git config --global user.name "Your Github name"
+git config --global user.email "Your Github email id"
+
+## Starting a Project with Git 
+1. Create a local repo (omit <directory> to initialise the current directory as a git repo) - git init <directory>
+2. Download a remote repo - git clone <repo url>
+
+
+##  Make a change
+1. Add a file to staging - git add <file>
+2. Stage all files - git add .
+3. Commit all staged files to git - git commit -m "commit message"
+4. Add all changes made to tracked files & commit - $ git commit -am "commit message"
+
+## Branches
+List all local branches. Add -r flag to show all remote branches. -a flag for all branches.
+1. git branch
+2. Create a new branch - git branch <new-branch>
+3. Switch to a branch & update the working directory - git checkout <branch>
+4. Create a new branch and switch to it - git checkout -b <newbranch>
+5. Delete a merged branch - git branch -d <branch>
+6. Delete a branch, whether merged or not - git branch -D <branch>
+7. Add a tag to current commit (often used for new version releases) - git tag <tag-name>
+
+## Merging
+Merge branch a into branch b. Add --no-ff option for no-fast-forward merge
+
+git checkout b
+git merge a
+
+Merge & squash all commits into one new commit - git merge --squash a
+
+to be continued ..
+.
+.
+.
+.
+Reference - https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn
