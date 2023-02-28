@@ -14,14 +14,30 @@ rest of the work is done on terminal
 Step 1 - git config --global user.email "youGithub@example.com"
 step 2 - git config --global user.name "Your github Name"
 
-## Commands to clone and work on repo and then commit it
+## Commands to clone and work on repo and then commit it in local repo
 
 Step 1 - git clone <repo url>
 Step 2 - open repo using any code editor and make changes
-step 3 - git status
-step 4 - git add . or git add <file name>
-step 5 - git commit -m "Message" -m "Descrption"
-step 6 - git status
-step 7 - git push
+Step 3 - git status
+Step 4 - git add . or git add <file name>
+Step 5 - git commit -m "Message" -m "Descrption"
+Step 6 - git status
+Step 7 - git push
 
 you can also use git clear if the terminal is filled with code
+
+## Commands to upload work on github
+
+1st we have to prove git that we are the owner of the repo
+
+Step 1 - generate ssh key by ssh-keygen -t rsa -b 4096 -C "Githubemail@example.com" command
+Step 2 - give a file name to save key
+Step 3 - Enter passphrase or enter to leave it blank
+Step 4 - use ls | grep <key file name> to ge list of key
+Step 5 - use .pub key to upload to github never share key without .pub as it is a prove to show that we are the owner of the repo
+Step 6 - open .pub file using - cat <key fle name>
+Step 7 - go to github - under setting click on SSh and GPG keys option
+
+2nd now we can push it to our repo
+Step 1 - git push origin master
+Step 2 - 
