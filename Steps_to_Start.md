@@ -45,7 +45,7 @@ you can also use git clear if the terminal is filled with code
 
 2nd now we can push it to our repo
 
-    Step 1 - git push origin master
+    Step 1 - git push origin main
 
 ## Work on repo you made locally
 
