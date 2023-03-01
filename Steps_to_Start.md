@@ -39,7 +39,7 @@ you can also use git clear if the terminal is filled with code
     Step 2 - give a file name to save key
     Step 3 - Enter passphrase or enter to leave it blank
     Step 4 - use ls | grep <key file name> to ge list of key
-    Step 5 - use .pub key to upload to github never share key without .pub as it is a prove to show that we    are the owner of the repo
+    Step 5 - use .pub key to upload to github never share key without .pub as it is a prove to show that we are the owner of the repo
     Step 6 - open .pub file using - cat <key fle name>
     Step 7 - go to github - under setting click on SSh and GPG keys option
 
