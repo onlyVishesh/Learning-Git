@@ -41,7 +41,7 @@ you can also use git clear if the terminal is filled with code
     Step 4 - use ls | grep <key file name> to ge list of key
     Step 5 - use .pub key to upload to github never share key without .pub as it is a prove to show that we are the owner of the repo
     Step 6 - open .pub file using - cat <key fle name>
-    Step 7 - go to github - under setting click on SSh and GPG keys option
+    Step 7 - go to github - under setting click on SSH and GPG keys option
 
 2nd now we can push it to our repo
 
@@ -49,7 +49,7 @@ you can also use git clear if the terminal is filled with code
 
 ## Work on repo you made locally
 
-    Step 1 - open the directory using cd command
+    Step 1 - open the dir using cd command
     Step 2 - make it a git repo using git init command
     Step 3 - ls -a to see .git file
     Step 3 - now use same commands used in topic "Work on repo already exist" till 1st
